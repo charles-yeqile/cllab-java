@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: cllab
+  profiles:
+    active: dev
+  cloud:
+    config:
+      name: cllab
+      profile: dev
+      uri: http://catsb:123456@localhost:9595
