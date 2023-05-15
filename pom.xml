@@ -17,7 +17,7 @@
 	<properties>
 		<java.version>17</java.version>
 		<spring-cloud.version>2022.0.2</spring-cloud.version>
-		<catsb-uta-common-lib.version>0.4.230515</catsb-uta-common-lib.version>
+		<catsb-uta-common-lib.version>0.4.230516</catsb-uta-common-lib.version>
     <cllab.version>${project.version}</cllab.version>
 	</properties>
   <modules>
@@ -28,6 +28,11 @@
 			<groupId>cn.utaplus</groupId>
 			<artifactId>catsb-uta-common-lib-beta</artifactId>
 			<version>${catsb-uta-common-lib.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.yaml</groupId>
+			<artifactId>snakeyaml</artifactId>
+			<version>2.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

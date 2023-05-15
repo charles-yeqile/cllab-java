@@ -16,6 +16,8 @@ public class RootController extends AbstractCatSbController {
     final var req = prepare(request);
     final var lang = req.getLang();
     final var data = new StrPair("Hello", "World");
-    return successRes(lang, data);
+    final var response = successRes(lang, data);
+    logger.info("json of response is " + jsonManager.getJsonStr(response));
+    return response;
   }
 }
