@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.0.6</version>
+		<version>3.0.7</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>love.charlesandlynn</groupId>
@@ -16,8 +16,8 @@
 	<description>Charlynn Server Lab Project</description>
 	<properties>
 		<java.version>17</java.version>
-		<spring-cloud.version>2022.0.2</spring-cloud.version>
-		<catsb-uta-common-lib.version>0.4.230516</catsb-uta-common-lib.version>
+		<spring-cloud.version>2022.0.3</spring-cloud.version>
+		<catsb-uta-common-lib.version>0.4.230623</catsb-uta-common-lib.version>
     <cllab.version>${project.version}</cllab.version>
 	</properties>
   <modules>
